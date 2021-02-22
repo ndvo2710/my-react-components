@@ -5,7 +5,7 @@ function Sidebar() {
     return (
         <div className="sidebar" >
             <div className="sidebar-wrapper">
-                <p>My React Components</p>
+                <a href="#" className="simple-text logo-normal">My React Components</a>
                 <hr />
                 <Nav vertical>
                     <NavItem>
@@ -18,22 +18,58 @@ function Sidebar() {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Grid System</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fa fa-grip-horizontal" />
+                            <p>{'Grid System'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Panels</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fas fa-solar-panel" />
+                            <p>{'Panels'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Sweet Alert</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fas fa-exclamation-triangle" />
+                            <p>{'Sweet Alert'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Notifications</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fas fa-comment-dots" />
+                            <p>{'Notifications'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Icons</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fas fa-icons" />
+                            <p>{'Icons'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Typography</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="far fa-keyboard" />
+                            <p>{'Typography'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                 </Nav>
             </div>
