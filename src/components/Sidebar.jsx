@@ -9,7 +9,13 @@ function Sidebar() {
                 <hr />
                 <Nav vertical>
                     <NavItem>
-                        <NavLink href="#">Buttons</NavLink>
+                        <NavLink
+                            href="#"
+                        >
+                            <i className="fas fa-blog" />
+                            <p>{'Buttons'}</p>
+                            
+                        </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="#">Grid System</NavLink>
